@@ -1,0 +1,8 @@
+nodedef> name VARCHAR,x DOUBLE,width DOUBLE,count INT,color VARCHAR
+@nilegardiner,1.0,1.0,1,'255,0,0'
+@chadpergram,1.0,1.0,1,'255,0,0'
+@bbcworldtonight,1.0,1.0,1,'255,0,0'
+@bbcrosatkins,1.0,1.0,1,'255,0,0'
+@bbcbreaking,1.0,1.0,1,'255,0,0'
+@ap,1.0,1.0,1,'255,0,0'
+edgedef> node1 VARCHAR,node2 VARCHAR,weight DOUBLE

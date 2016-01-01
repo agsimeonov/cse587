@@ -1,0 +1,4 @@
+nodedef> name VARCHAR,x DOUBLE,width DOUBLE,count INT,relative DOUBLE,color VARCHAR
+#crimea #nato,2.0,2.0,2,1,'0,0,255'
+#justintimberlake #mileycyrus,1.0,1.0,1,1,'255,0,0'
+edgedef> node1 VARCHAR,node2 VARCHAR,weight DOUBLE

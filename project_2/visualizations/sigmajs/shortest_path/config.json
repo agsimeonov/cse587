@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "Alexander Simeonov",
+    "file": "",
+    "link": ""
+  },
+  "text": {
+    "title": "Shortest Path",
+    "more": "Shortest Path from cnnbrk (CNN Breaking News)",
+    "intro": "Shortest Path from cnnbrk (CNN Breaking News)"
+  },
+  "legend": {
+    "edgeLabel": "Reply/Mention/Retweet",
+    "colorLabel": "Distance",
+    "nodeLabel": "User"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "distance",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "imageAttribute": false,
+    "groupByEdgeDirection": false
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.2,
+      "maxNodeSize": 7,
+      "maxEdgeSize": 0.5,
+      "minNodeSize": 1
+    },
+    "drawingProperties": {
+      "labelThreshold": 10,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}
